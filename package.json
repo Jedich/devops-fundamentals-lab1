@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Jedich/devops-fundamentals-lab1#readme",
   "devDependencies": {
     "eslint": "8.29.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
