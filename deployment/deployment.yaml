@@ -31,7 +31,6 @@ spec:
       containers:
       - name: devops-lab
         image: jedich/devops-fundamentals-docker
-        imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
             path: /healthz
